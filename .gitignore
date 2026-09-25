@@ -1,0 +1,23 @@
+.env
+
+# Python environments and caches
+.venv/
+.venv-1/
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Training artifacts / large binaries
+checkpoints_q4/
+checkpoints_q4_torch/
+exports_modeles/
+photos_q8/
+*.h5
+*.pt
+*.pth
+*.keras
+
+# Hugging Face cloned Space repo (separate git project)
+intel-image-classification-cnn/
